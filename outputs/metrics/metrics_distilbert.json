@@ -1,0 +1,58 @@
+{
+  "accuracy": 0.96,
+  "macro_f1": 0.7432432432432432,
+  "weighted_f1": 0.9405405405405406,
+  "per_class": {
+    "MANDATORY": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "PROHIBITED": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "RECOMMENDED": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "OPTIONAL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "INFORMATIVE": {
+      "precision": 0.9473684210526315,
+      "recall": 1.0,
+      "f1-score": 0.972972972972973,
+      "support": 18.0
+    },
+    "accuracy": 0.96,
+    "macro avg": {
+      "precision": 0.5894736842105263,
+      "recall": 0.6,
+      "f1-score": 0.5945945945945945,
+      "support": 25.0
+    },
+    "weighted avg": {
+      "precision": 0.9221052631578947,
+      "recall": 0.96,
+      "f1-score": 0.9405405405405406,
+      "support": 25.0
+    }
+  },
+  "mask_modals": false,
+  "class_weighting": true,
+  "device": "mps",
+  "hyperparams": {
+    "epochs": 10,
+    "batch_size": 16,
+    "lr": 3e-05
+  }
+}

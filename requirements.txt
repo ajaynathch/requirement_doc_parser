@@ -1,0 +1,13 @@
+# EECE5644 Final Project -- Requirement Classification from an NVMe spec
+# Python 3.13, installed into ./.venv
+docling==2.111.0
+transformers==5.8.1
+datasets==5.0.0
+accelerate==1.14.0
+evaluate==0.4.6
+torch==2.12.1
+scikit-learn==1.9.0
+pandas==3.0.3
+numpy==2.5.1
+matplotlib==3.11.0
+seaborn==0.13.2

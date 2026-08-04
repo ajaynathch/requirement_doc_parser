@@ -1,0 +1,27 @@
+{
+  "cv_folds": 2,
+  "grid_size": 24,
+  "before_params": {
+    "tfidf__ngram_range": "(1, 1)",
+    "tfidf__min_df": "1",
+    "tfidf__sublinear_tf": "False",
+    "clf__C": "1.0"
+  },
+  "before_test": {
+    "accuracy": 0.84,
+    "macro_f1": 0.6745798319327732,
+    "weighted_f1": 0.8485042016806723
+  },
+  "best_params": {
+    "clf__C": "1.0",
+    "tfidf__min_df": "2",
+    "tfidf__ngram_range": "(1, 2)",
+    "tfidf__sublinear_tf": "True"
+  },
+  "best_cv_macro_f1": 0.7752031181379007,
+  "after_test": {
+    "accuracy": 0.92,
+    "macro_f1": 0.9138655462184875,
+    "weighted_f1": 0.9233613445378152
+  }
+}

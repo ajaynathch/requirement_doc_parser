@@ -1,0 +1,12 @@
+{
+  "baseline_logreg": {
+    "accuracy": 0.88,
+    "macro_f1": 0.8595238095238095,
+    "weighted_f1": 0.881142857142857
+  },
+  "distilbert": {
+    "accuracy": 0.96,
+    "macro_f1": 0.7432432432432432,
+    "weighted_f1": 0.9405405405405406
+  }
+}

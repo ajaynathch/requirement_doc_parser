@@ -1,0 +1,12 @@
+# Model weights (too large for GitHub's 100MB limit)
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
